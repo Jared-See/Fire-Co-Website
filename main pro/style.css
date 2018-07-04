@@ -1284,4 +1284,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    border-bottom: solid 5px #116323;
+}
+
+/*/////////////////////////    Home Page    ///////////////////////////////////////// */
+.container-home{
+    padding-left: 10%;
+    padding-right: 10%;
 }

@@ -19,7 +19,10 @@ get_header();
 		<main id="main" class="site-main">
             <?php echo do_shortcode('[metaslider id="338"]'); ?>
 		
-
+            <div class="container=home">
+                <h1 class="home=header">Announcments</h1>
+                
+            </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
