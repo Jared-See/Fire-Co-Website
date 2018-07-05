@@ -6,26 +6,64 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package main_dev
+ * @package main
  */
 
 ?>
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'main-dev' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'main-dev' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'main-dev' ), 'main-dev', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+	<footer class="footer-distributed">
+		<div class="footer-left">
+
+			<h3>Ogontz Fire Co.</h3>
+
+			<p class="footer-links">
+				<a href="#">Home</a>
+				·
+				<a href="#">Contact Us</a>
+				·
+				<a href="#">Events</a>
+				·
+				<a href="#">About Us</a>
+				·
+				<a href="#">Gallery</a>
+				·
+				<a href="#">Apperatus</a>
+			</p>
+
+			<p class="footer-company-name">Company Name &copy; 2018</p>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>8215 Old York Rd</span> Elkins Park, PA</p>
+			</div>
+
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+1 111-111-1111</p>
+			</div>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="#">Ogontz@emailaddress.com</a></p>
+			</div>
+
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Mission Statement</span>
+				Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+			</p>
+
+		</div>
+        </div>
+		
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

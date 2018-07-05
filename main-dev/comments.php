@@ -7,7 +7,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package main_dev
+ * @package main
  */
 
 /*
@@ -28,18 +28,18 @@ if ( post_password_required() ) {
 		?>
 		<h2 class="comments-title">
 			<?php
-			$main_dev_comment_count = get_comments_number();
-			if ( '1' === $main_dev_comment_count ) {
+			$main_comment_count = get_comments_number();
+			if ( '1' === $main_comment_count ) {
 				printf(
 					/* translators: 1: title. */
-					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'main-dev' ),
+					esc_html__( 'One thought on &ldquo;%1$s&rdquo;', 'main' ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			} else {
 				printf( // WPCS: XSS OK.
 					/* translators: 1: comment count number, 2: title. */
-					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $main_dev_comment_count, 'comments title', 'main-dev' ) ),
-					number_format_i18n( $main_dev_comment_count ),
+					esc_html( _nx( '%1$s thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', $main_comment_count, 'comments title', 'main' ) ),
+					number_format_i18n( $main_comment_count ),
 					'<span>' . get_the_title() . '</span>'
 				);
 			}
@@ -63,7 +63,7 @@ if ( post_password_required() ) {
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() ) :
 			?>
-			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'main-dev' ); ?></p>
+			<p class="no-comments"><?php esc_html_e( 'Comments are closed.', 'main' ); ?></p>
 			<?php
 		endif;
 
