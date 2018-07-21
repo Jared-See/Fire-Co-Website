@@ -14,7 +14,8 @@ get_header();
                 <center><h1 id="Main-Heading">Contact</h1></center>
                 
                 <div class="contact-map">
-                    <?php echo do_shortcode('[wpgmza id="1"]');?>
+                    <?php echo do_shortcode('[metaslider id="338"]'); ?>
+                    <?php [gmap-embed id="390"]; ?>
                 </div>
                 
                 <p class="contact-info">

@@ -17,12 +17,7 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-            <?php echo do_shortcode('[metaslider id="338"]'); ?>
-		
-            <div class="container=home">
-                <h1 class="home=header">Announcments</h1>
-                
-            </div>
+            <img src="images/underConstruction.jpg">
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
