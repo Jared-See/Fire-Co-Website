@@ -51,7 +51,7 @@
 		</div> 
   	  
 		<li class="header-li"><a href="#">Events</a></li>	
-	  <li class="header-li"><a href="#">Contact Us</a></li>
+	  <li class="header-li"><a href="http://www.ogontzfireco.org/cms/contact/">Contact Us</a></li>
 	  <li class="header-li"><a class="active" href="#">Home</a></li>
 	</ul>
 		</nav><!-- #site-navigation -->

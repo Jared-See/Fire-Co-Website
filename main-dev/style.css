@@ -1291,9 +1291,31 @@ body {
 .container-home{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 5%;
 }
+
+.home-posts{
+    padding-bottom: 5%;
+}
+
+
+
+
+
+/*/////////////////////////    Contact Us Page  ///////////////////////////////////////// */
 
 .container-contact{
     padding-left: 10%;
     padding-right: 10%;
+    display: block;
+    background-color: darkgray;
+}
+
+.Main-Heading{
+    padding-bottom: 10px;
+    border-bottom: solid, 5px, #116323;;
+}
+
+.contact-map{
+    float: left;
 }

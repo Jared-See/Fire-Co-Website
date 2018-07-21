@@ -19,9 +19,11 @@ get_header();
 		<main id="main" class="site-main">
             <?php echo do_shortcode('[metaslider id="338"]'); ?>
 		
-            <div class="container=home">
-                <h1 class="home=header">Announcments</h1>
-                
+            <div class="container-home">
+                <center> <h1 class="home=header">Announcments</h1> </center>
+                <div class="home-posts">
+                    <?php echo do_shortcode("[post_grid id='373']"); ?>
+                </div>
             </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
