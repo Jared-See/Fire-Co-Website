@@ -33,14 +33,14 @@
 		<nav>
 			<ul class="header">
 	  <li class="header-li Apperatus"><a href="#">Apparatus</a></li>
-	  <li class="header-li"><a href="#">Gallery</a></li>
+	  <li class="header-li"><a href="http://www.ogontzfireco.org/cms/gallery/">Gallery</a></li>
 
 		<div class="dropdown">
 				<button class="dropbtn">About Us 
 					<i class="fa fa-caret-down"></i>
 				</button>
 				<div class="dropdown-content">
-					<a href="#">History</a>
+					<a href="http://www.ogontzfireco.org/cms/history/">History</a>
 					<a href="#">Company Officers</a>
 					<a href="#">Crew Officers</a>
 					<a href="#">Mission</a>
@@ -52,7 +52,7 @@
   	  
 		<li class="header-li"><a href="#">Events</a></li>	
 	  <li class="header-li"><a href="http://www.ogontzfireco.org/cms/contact/">Contact Us</a></li>
-	  <li class="header-li"><a class="active" href="#">Home</a></li>
+	  <li class="header-li"><a class="active" href="http://www.ogontzfireco.org/cms/">Home</a></li>
 	</ul>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->

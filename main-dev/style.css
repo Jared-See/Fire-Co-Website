@@ -68,6 +68,9 @@ html {
 
 body {
 	margin: 0;
+	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
 }
 
 /**
@@ -982,7 +985,6 @@ body {
 
 .container{
     min-height: 100vh; /* will cover the 100% of viewport */
-    overflow: hidden;
     display: block;
     position: relative;
     width: 100%;
@@ -1113,12 +1115,14 @@ body {
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
-
+	position: relative;
 	padding: 55px 50px;
-  margin-top: 80px;
-  position: absolute;
-  bottom:0;
-  width: 100%;
+  	margin-top: 80px;
+  	display: inline-block;
+  	bottom:0;
+  	width: 100%;
+  	flex: 0 0 50px;/*or just height:50px;*/
+  	margin-top: auto;
 }
 
 .footer-distributed .footer-left,
@@ -1261,6 +1265,7 @@ body {
 
 	.footer-distributed{
 		font: bold 14px sans-serif;
+    position: relative;
 	}
 
 	.footer-distributed .footer-left,
@@ -1276,6 +1281,36 @@ body {
 		margin-left: 0;
 	}
 
+	.content-area {
+		margin-bottom:230px
+	  }
+
+}
+
+
+
+/*///////////////////////   History   //////////////////////////////////////////////////*/
+.container-history{
+    padding-left: 10%;
+	padding-right: 10%;
+	overflow: visible;
+}
+
+.main-heading-history{
+	display: block;
+	border-bottom: #116323, solid, 5px;
+}
+
+.history-text-block{
+	padding-left: 10%;
+	padding-right: 10%;
+    background-color: darkgray;
+}
+
+.history-text{
+	font-size: 140%;
+	padding-top: 10px;
+	display: block;
 }
 
 /*////////////////////////////////////////// Meta Slider*/
@@ -1328,17 +1363,27 @@ body {
 
 
 /*///////////////////////   History   //////////////////////////////////////////////////*/
-container-history{
+.container-history{
     padding-left: 10%;
-    padding-right: 10%;
+	padding-right: 10%;
+	overflow: visible;
 }
 
 .main-heading-history{
-    display: block;
+	display: block;
+	border-bottom: #116323, solid, 5px;
 }
 
 .history-text-block{
+	padding-left: 10%;
+	padding-right: 10%;
     background-color: darkgray;
+}
+
+.history-text{
+	font-size: 140%;
+	padding-top: 10px;
+	display: block;
 }
 
 
